@@ -1,0 +1,55 @@
+.begin {
+  text-align: center;
+  padding: 75px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'ElanorFreePersonalUse-ExBdIt';
+  font-size: 50px;
+  color: #2762e9;
+  text-align: center;
+}
+
+@font-face {
+  font-family: ElanorFreePersonalUse-ExBdIt;
+  src: url("Elanor-free/ElanorFreePersonalUse-ExBdIt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: ElanorFreePersonalUse-ExtLt;
+  font-weight: bold;
+  src: url("Elanor-free/ElanorFreePersonalUse-ExtLt.otf") format("opentype");
+}
+
+div.oval {
+  width: 300px;
+  height: 500px;
+  background: #2762e9;
+  border-radius: 50%;
+  background: rgb(0,204,247);
+  background: radial-gradient(circle, rgba(0,204,247,1) 0%, rgba(180,246,255,1) 100%);
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  left: 100px;
+}
+
+div.oval2 {
+  width: 500px;
+  height: 700px;
+  background: #8106df;
+  border-radius: 50%;
+  background: rgb(218,20,58);
+  background: radial-gradient(circle, rgba(218,20,58,1) 0%, rgba(251,132,143,1) 100%);
+  position: absolute;
+  z-index: 5;
+  margin-bottom: 200px;
+}
+
+.overlap {
+  position: relative;
+  width: 500px;
+  margin-inline: auto;
+  display: flex;
+}
