@@ -79,8 +79,6 @@
   position: absolute;
   z-index: 5;
   list-style-type: none;
-  font-family: 'Prompt', sans-serif;
-  font-size: 15px;
   color: #f9ab01;
 }
 
@@ -97,7 +95,7 @@
 
 li {
   font-size: 20px;
-  font-family: 'prompt', sans-serif;
+  font-family: Prompt;
 }
 
 #title {

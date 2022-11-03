@@ -5,14 +5,18 @@
 }
 
 h1 {
-  font-family: 'ElanorFreePersonalUse-ExBdIt';
+  font-family: Prompt;
   font-size: 50px;
   color: #2762e9;
   text-align: center;
 }
+@font-face {
+  font-family: Lewagon;
+  src: url("/Users/william/Downloads/Wagon-free-personal-Use/Wagon Free Personal Use/Wagon-ExtraLight.otf") format("opentype");
+  }
 
 @font-face {
-  font-family: ElanorFreePersonalUse-ExBdIt;
+  font-family: Elanor;
   src: url("Elanor-free/ElanorFreePersonalUse-ExBdIt.otf") format("opentype");
 }
 
