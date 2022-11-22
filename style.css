@@ -2,6 +2,10 @@
 @import url('first.css');
 @import url('third.css');
 
+.begin a {
+  color: #f9abf4;
+}
+
 .fa-solid {
   color: #360410;
   padding: 20px;
